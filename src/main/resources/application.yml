@@ -1,0 +1,16 @@
+integration:
+    url: http://data.fixer.io/api/
+    access.key: f79dd000fe6e95865cc3deb387d475a0
+    request.latest.rate.delay: 30000
+
+main.frame:
+    title: Earnings calculation
+
+logging:
+    level:
+        com.antonch.earningscounter: DEBUG
+#        org.springframework.boot: DEBUG
+    pattern:
+        console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+        file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+    file: main.log
