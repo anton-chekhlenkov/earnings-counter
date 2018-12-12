@@ -19,5 +19,5 @@
 * Бесплатный АПИ имеет ограничение по количеству запросов в месяц на каждый сервис, если лимит будет исчерпан - следует заменить ключ на новый в конфигурационном файле (application.yml:integration.access.key).
 
 #### Запуск:
-sdk use java 9.0.7-zulu
-gradle bootRun
+    sdk use java 9.0.7-zulu
+    gradle bootRun
